@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Content simple</title>
+    <style> 
+    section{
+        margin: 2em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section h1{
+        text-align: center;
+        order: -2;
+        width: 100%;    }
+
+    section article {
+    padding: 0 1em 3em;
+    background-color: #888;
+    position: relative;
+    width: 25% ;
+    box-sizing: border-box;
+    }
+    section article :nth-child(2){
+        width: 50%;}
+
+    section article :nth-child(3){
+        order: -1; 
+           }
+    section article> p {
+        text-align: justify;
+    }
+    section article a{
+        position: absolute;
+        bottom: 1em;
+        right: 1em;
+    }
+    @media (max-width: 1400px){
+        section{
+            flex-direction: column;
+        }
+        section article :nth-child(3){
+        order: 0; 
+           }
+           section article {
+               width: 100%!important;
+           }
+
+    }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Lorem ipsum dolor sit.</h1>
+        <article>
+      <h2>Lorem, ipsum dolor. 1</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio animi vitae doloremque, quisquam culpa minus? Magnam officiis at illum, sed ipsum quas eveniet temporibus aperiam ipsam! Tempora consequuntur sed veritatis nemo a quidem accusantium pariatur quo ipsum fuga. Mollitia minima quia praesentium! Omnis tempora recusandae alias ab dolore fugiat soluta voluptates est nostrum qui, corrupti perspiciatis sapiente natus sequi minima tenetur ducimus mollitia, ipsam saepe accusamus. Repellat molestias quisquam, odio, assumenda aut pariatur sapiente ut inventore explicabo similique itaque eveniet ex commodi magnam labore amet veritatis autem? Sint in accusantium laborum iure facilis iste magni nemo enim sequi qui tempore nam ea cumque quasi et beatae numquam nulla sunt temporibus, aspernatur veniam culpa architecto. Excepturi suscipit veniam, sint omnis facere sunt dolorum explicabo accusantium rem quasi odio natus. Eligendi omnis ab dolor, ullam, dolorem temporibus, earum odit voluptates facere modi doloribus aperiam. Doloribus accusantium, sit in ad omnis aliquid eveniet harum itaque? Laboriosam illo similique autem optio. Recusandae ipsam, unde asperiores quod, rem adipisci blanditiis ipsa atque earum magnam amet? Vero in ab repellendus sint nesciunt excepturi perferendis consequuntur quisquam laudantium pariatur, suscipit ad adipisci soluta animi neque eos nostrum accusantium! Consectetur enim aut aperiam fugiat, cum eaque deleniti maiores!</p>
+       <a href="">reed more</a>
+        </article>
+        <article>
+            <h3>Lorem ipsum dolor sit.  2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo sunt, omnis accusamus sint voluptate repellendus tenetur dolorum nisi necessitatibus aut fuga deserunt quas optio delectus blanditiis repudiandae facere non nesciunt. Minima itaque error a facere sapiente iusto ipsum explicabo, enim eum. Nobis ullam earum itaque impedit, provident placeat sequi consequuntur alias sunt, nemo dolorem dolorum qui laudantium autem est nihil accusantium tempora ipsam. Placeat delectus nam corporis, aliquam vitae enim in? Eum modi tempora omnis adipisci, reprehenderit in itaque vero ullam quod voluptatem labore iusto, cumque mollitia sint? Voluptatibus eos eaque nisi, unde blanditiis perspiciatis quam ducimus aperiam quibusdam velit illo aliquid itaque, fugiat consequuntur, in dolor nobis! Quam dicta hic, sit est, tempora, voluptate molestias magnam enim perferendis incidunt neque saepe beatae culpa dolorum facilis distinctio eligendi quaerat modi? Minus placeat quis sapiente et molestias? Totam, ipsum veritatis vitae sapiente porro libero consectetur distinctio molestiae iure dolorem quaerat corporis culpa sequi inventore velit quos sint doloribus odit recusandae necessitatibus nulla. Ducimus harum vel itaque ab culpa molestiae consectetur ipsam dignissimos quaerat cumque architecto recusandae sapiente quisquam delectus sint sit dolorem quis voluptate vero accusantium maxime, cupiditate modi? Nesciunt, magnam? Laboriosam molestiae exercitationem voluptas aperiam neque eos dicta odit vero omnis aut vitae eveniet earum nulla sint, harum hic nihil dignissimos soluta sed itaque quidem distinctio ea, officia iusto. Obcaecati illum, corporis quam, voluptate accusantium enim fugit dolor, corrupti architecto nesciunt nihil at eaque deleniti. Ipsa molestiae reprehenderit sint! Perferendis omnis praesentium ea eum id, quasi debitis sint consequatur amet eius esse magni sequi doloribus fuga incidunt eveniet harum? Eaque at, nesciunt a doloribus quam officiis voluptatibus praesentium in quisquam saepe eos laboriosam minus atque omnis impedit fugit quasi quas iure ipsam libero? Laborum veritatis vel quas placeat delectus nisi nesciunt molestiae nobis eveniet perferendis! A expedita cumque quas itaque voluptatibus saepe dolorem voluptate odio unde possimus atque delectus harum voluptatum modi consequatur, nostrum nesciunt aliquid dolorum aliquam accusantium optio ea? Non ratione eveniet consequuntur odio, corrupti cupiditate porro vero. Consequuntur sit nemo doloribus quas dolorum asperiores saepe minus illo dignissimos voluptatum perspiciatis amet sequi ad accusamus, ab eaque sed neque? Deserunt hic, eum beatae id adipisci pariatur blanditiis enim fugit porro provident. Alias nesciunt reiciendis ratione, ut officiis vitae, labore esse iste debitis quas molestias necessitatibus id? Sed possimus, dicta quidem earum ipsam assumenda rerum, itaque sequi veritatis, in explicabo quas consectetur. Deserunt autem velit iusto suscipit placeat, dolor doloribus quod, dolorum illum nam obcaecati reprehenderit sed pariatur voluptates id enim quas blanditiis tempora ad reiciendis molestias assumenda in quibusdam. Velit quod assumenda modi, nulla est consectetur tempora. Sapiente earum, qui totam reiciendis ducimus illo reprehenderit! Quos repellat totam sed. Maiores at, non corporis, sed eius inventore doloremque dolore provident totam sapiente dolores fugit facere, eligendi praesentium. Laboriosam ipsam, exercitationem natus maxime saepe ad sed temporibus ut minus voluptatem dolore inventore recusandae, molestias earum quae fugiat assumenda ab consequatur! Libero, quisquam asperiores enim incidunt accusantium, minima veniam esse error rem eos sit, id molestias ducimus? Vitae soluta repudiandae suscipit!</p>
+            <a href="">reed more</a>
+        </article>
+        <article>
+            <h3> Lorem ipsum dolor sit.  3 </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat enim corporis quam harum dolorum dignissimos magnam voluptate natus pariatur animi reiciendis, dolores nemo consequatur doloremque minima sequi commodi qui sapiente consectetur nihil temporibus amet ea! Ipsam asperiores vitae perspiciatis ex, dignissimos sit, maxime dicta qui doloribus tempora inventore, eius quae deserunt architecto? Minima quasi expedita nulla sunt officiis illo cum, odio magnam, rem voluptatem ipsam nam libero id? Placeat neque, a sit, similique nam, amet fugit ipsum quos sapiente beatae exercitationem doloremque praesentium eaque tempora non recusandae impedit labore pariatur unde corrupti illum. Ad suscipit vel cum! Ipsum, odio dolore, recusandae, omnis harum asperiores placeat laborum ut minus rerum distinctio excepturi repudiandae. Eligendi, tempore temporibus. Quaerat reprehenderit atque soluta esse consectetur, voluptas reiciendis quam laboriosam ipsam deleniti ullam minima iste cum vero velit, expedita provident quod? Vero repudiandae, quos deserunt voluptatum nesciunt facilis provident corrupti dolorum odio error commodi incidunt adipisci, dolore iure optio? Sed facere modi quod? Quibusdam repudiandae vero magnam autem provident enim consequuntur, neque optio distinctio facilis earum illum odit nemo atque maxime ipsam fugit, sapiente asperiores nulla et voluptas nesciunt natus beatae? Saepe sint mollitia quaerat voluptates aperiam at provident, ea ab beatae. Ullam, sed quisquam!</p>
+            <a href="">reed more</a>
+        </article>
+    </section>
+</body>
+</html>
